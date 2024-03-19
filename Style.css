@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    font-family: Source Sans Pro, sans-serif;
+    border: border-box;
+}
+
+
+
+.project {
+height: 100px;
+background-color: black;
+color: ivory;
+font-family: 'Source Sans Pro';
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 0;
+}
+
+.prologo {
+    height: 100px;
+    width: 140px;
+    background-color: black;
+    margin-bottom: 5px;
+    
+}
+
+.logo {
+    height: 100px;
+    width: 140px;
+    background-size: cover;
+    margin-bottom: 5px;
+
+
+    
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.box1 {
+    height: 60px;
+    background-color: black;
+    color: ivory;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+} 
+
+/** Home box **/
+.Home {
+    font-size: 1rem;
+}
+
+.homeicon {
+    display: flex;
+    align-items: center;
+    color: #E50914;
+    
+}
+
+
+/** Menu and Search icons box **/
+
+.menubox {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000B3;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+.menuicon{
+    
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    color: ivory;
+    background-color: #E50914;
+}
+
+.search {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #E50914;
+    border-radius: 4px;
+}
+
+
+/** Moviesbox  **/
+
+
+.Movies {
+    font-size: 1rem;
+}
+
+.moviesicon {
+    display: flex;
+    align-items: center;
+    color: #E50914;
+}
+
+
+/** location box **/
+
+.alwar {
+    font-size: 1rem;
+}
+
+.locationicon{
+    display: flex;
+    align-items: center;
+    color: #E50914;
+}
+
+
+/** ---------- Loginbox-------------- **/
+
+
+.login {
+    font-size: 1rem;
+}
+
+.loginicon {
+    display: flex;
+    align-items: center;
+}
+
+.loginbutton{
+    border-radius: 6px;
+    color: ivory;
+    background-color: #E50914;
+    border: none;
+}
+
+
+/** -------------dolbybox --------    **/
+
+
+.dolby {
+    height: 400px;
+    background-color: #E50914;
+    background-size: cover;
+    color: ivory;
+    align-items: end;
+      
+}
+
+.dolbybox{
+    background-image: url(./assets/images/dolby\ wallpaper.avif);
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: end;
+    color: ivory;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/** ------------ Bookingbox ---**/
+
+
+.bookingbox {
+    height: 100px;
+background-color: black;
+color: ivory;
+font-family: 'Source Sans Pro';
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin: 0;
+}
+
+
+.bookitems {
+    background-color: #E50914;
+    border: 2px solid black;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.moviesel {
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: ivory;
+    background-color: #E50914;
+}
+
+
+.bookitems1 {
+    background-color: #E50914;
+    border: 2px solid black;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.moviesel1 {
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: ivory;
+    background-color: #E50914;
+}
+
+.bookitems2 {
+    background-color: #E50914;
+    border: 2px solid black;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.moviesel2 {
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: ivory;
+    background-color: #E50914;
+
+}
+
+
+
+.bookitems3 {
+    background-color: #E50914;
+    border: 2px solid black;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.moviesel3 {
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: ivory;
+    background-color: #E50914;
+}
+
+
+/**--------------newbookbox---------**/
+
+.newbookbox{
+    height: 40px;
+    width: 171px;
+    background-color: #E50914;  
+    border-radius: 20px;
+}
+
+.bookbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 171px;
+    border-radius: 20px;
+}
+
+.bkbookbutton {
+    background-color: #E50914;
+    font-size: 1rem;
+    color: ivory;
+    height: 40px;
+    width: 171px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+/** -------- Content box ----------**/
+
+
+.contentbox {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: black;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    
+}
+
+.img{
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+
+.boxcontent {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+    
+}
+
+
+.boxfont {
+    background-color: black;
+    height: 100px;
+    color: #E50914;
+
+}
+
+
+.boxvideo1 {
+    background-color: black;
+    height: 165px;
+    width: 289px;
+    margin-top: 5px;
+}
+
+
+.vid {
+    height: 165px;
+    width: 289px;
+}
+
+.boxcontent1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+}
+
+.boxfont1{
+    background-color: black;
+    height: 100px;
+    color: #E50914;
+}
+
+.boxvideo2 {
+    background-color: black;
+    height: 165px;
+    width: 289px;
+    margin-top: 5px;
+}
+
+/** --- contentbox2 -----**/
+
+
+.contentbox2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+
+/** -----footer ----**/
+
+.footpanel1 {
+    background-color: #E50914;
+    color: ivory;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.footpanel2 {
+    background-color: black;
+    height: 248px;
+    
+    
+    
+    }
+
+.panel {
+    background-color: black;
+    height: 184px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}    
+
+.cenemabox1 {
+    height: 80px;
+    width: 162px;
+    background-color: chartreuse;
+}
+
+.cenemabox1img {
+    height: 80px;
+    width: 162px;
+    background-size: cover;
+    background-color: #E50914;
+}
+
+.addressbox{
+    height: 120px;
+    width: 187px;
+    padding: 0px 20px 0px 20px; 
+    color: #E50914;
+    background-color: black;
+    text-align: left;
+    margin-left: 0px;
+}
+
+
+.aboutbox {
+    background-color: black;
+    height: 50px;
+    width: 60px
+    
+}
+
+.about a{
+    
+    font-size: 1rem;
+    text-decoration: none;
+    color: #E50914;
+    
+    
+}
+
+
+.iconstyles{
+    color: #E50914;
+    font-size: 2rem;
+    margin-right: 0%;
+}
+
+.footericons {
+    background-color: black;
+}
